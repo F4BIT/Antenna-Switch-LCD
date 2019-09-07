@@ -1,7 +1,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <string.h>
-LiquidCrystal_I2C lcd(0x27, 20, 4); // set the LCD address on A4-A5
+// set the LCD address on A4-A5
+LiquidCrystal_I2C lcd(0x27, 20, 4); 
 
 const int PIN_BUTTON7 = A7; //reset
 const int PIN_BUTTON1 = A0; //antenna 1
